@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #1e1e1e;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, nav {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+/* Estilos para las secciones */
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.dark {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Estilos para el botón */
+#back-to-top-btn {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+#back-to-top-btn:hover {
+    background-color: #444;
+}
+
